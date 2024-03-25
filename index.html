@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="forJs.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>age calculator app</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="age-calculator-box">
+        <form>
+          <div class="just-box">
+            <div class="inp-content">
+              <label id="dayTitle">DAY</label>
+              <input id="day" type="number" value="" placeholder="DD" />
+              <p id="dayErr"></p>
+            </div>
+            <div class="inp-content">
+              <label id="monthTitle">Month</label>
+              <input id="month" type="number" placeholder="MM" />
+              <p id="monthErr"></p>
+            </div>
+            <div class="inp-content">
+              <label id="yearTitle">Year</label>
+              <input id="year" type="number" placeholder="YYYY" />
+              <p id="yearErr"></p>
+            </div>
+          </div>
+          <div class="submit-box">
+            <hr />
+            <button type="submit" class="circle" id="circleBtn">
+              <img src="./assets/arrow.SVG" alt="" />
+            </button>
+          </div>
+        </form>
+        <div class="result-box">
+          <div class="result">
+            <p id="yearResult">- -</p>
+            <h2>years</h2>
+          </div>
+          <div class="result">
+            <p id="monthResult">- -</p>
+            <h2>months</h2>
+          </div>
+          <div class="result">
+            <p id="dayResult">- -</p>
+            <h2>days</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

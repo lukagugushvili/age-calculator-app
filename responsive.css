@@ -1,0 +1,40 @@
+@media (max-width: 705px) {
+  .circle {
+    position: relative;
+    right: 50%;
+    transform: translateX(50%);
+    width: 64px;
+    height: 64px;
+  }
+  .circle img {
+    width: 24px;
+  }
+  .result-box {
+    justify-content: center;
+  }
+  .result p {
+    font-size: 56px;
+  }
+  .result h2 {
+    font-size: 56px;
+  }
+  .inp-content label {
+    font-size: 12px;
+  }
+  .inp-content input {
+    padding: 12px 10px;
+    font-size: 20px;
+  }
+  .inp-content p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 435px) {
+  .result p {
+    font-size: 45px;
+  }
+  .result h2 {
+    font-size: 45px;
+  }
+}

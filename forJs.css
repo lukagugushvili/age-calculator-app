@@ -1,0 +1,11 @@
+.purpleLine {
+  border: 1px solid #854dff;
+}
+
+.redLine {
+  border: 1px solid #ff5959;
+}
+
+.redTitle {
+  color: red;
+}
